@@ -7,7 +7,7 @@ it('should retutn 6 characters from the string safari' , () => {
     expect(stringLength("safari")).toBe(6)
 })
 
-it('should throw an error when the string is less than 1 or longer than 10' , ()=>{
+it('should throw an error when the string is less than 1 or greater than 10' , ()=>{
     expect(() => stringLength("safariHamulidaniel")).toThrow('Wrong value');
 })
 
